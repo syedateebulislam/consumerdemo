@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RestController
-public class elkcontroller {
+public class kafkacontroller {
 
     @GetMapping("/logs")
-    public String getEmployee(){
+    public String getKafka(){
 
-        log.info("Method startLogging started");
+        log.info("Method started");
         return "test";
     }
 
