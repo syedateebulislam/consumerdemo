@@ -8,10 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class kafkacontroller {
 
-    @GetMapping("/logs")
-    public String getKafka(){
-
-        log.info("Method started");
+    @GetMapping("/consumertest")
+    public String test(){
         return "test";
     }
 
