@@ -14,7 +14,7 @@ public class KafkaConsumer {
     @KafkaListener(topics = kafkaTopic,groupId = kafkaGroupId)
     public void kafkaConsumerTest(String value){
 
-        log.info("kafka values received - {}",value);
+        log.info("kafka consumer - {}",value);
 
     }
 
